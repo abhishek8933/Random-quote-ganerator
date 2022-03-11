@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script:wght@400;500;600&family=Luxurious+Roman&family=Nunito:ital,wght@1,200&family=Poppins:wght@100;300&family=Roboto+Mono&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height: 100vh;
+    background: #5372F0;
+}
+.wrapper{
+    width: 605px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+.wrapper header{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+.quote-area i{
+    font-size: 15px;
+}
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin:0 0 3px 10px ;
+}
+.quote-area .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+.wrapper .buttons{
+    border-top: 1px solid #fff;
+}
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* color: yellowgreen; */
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+.features ul li:hover{
+    color: #fff;
+    background: #5372F0;
+}
+.features  button{
+    border: none;
+    outline: none;
+    background: #5372F0;
+    padding: 13px 22px;
+    color: #fff;
+    cursor: pointer;
+    font-style: 16px;
+    border-radius: 30px;
+}
+button .loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
